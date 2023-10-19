@@ -1,0 +1,64 @@
+#formacoes {
+    background: var(--azul);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.card__formacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.formacoes__container {
+    background-color: var(--branco);
+    padding: 1em;
+    border-radius: 10px;
+    margin: 0.4em auto;
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.06);
+    width: 80vw;
+}
+
+.titulo__lista {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--laranja);
+    padding-bottom: 0.5em;
+}
+
+.nome__curso {
+    font-size: 18px;
+    font-weight: 500;
+    text-indent: 1em;
+}
+
+.box__lista {
+    padding: 0.3em;
+}
+
+.textolista {
+    color: var(--cinza-claro);
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1024px) {
+    .formacoes__container{
+        width: 600px;
+    }
+
+    .textolista{
+        font-size: 16px
+    }
+
+    .titulo__lista {
+        font-size: 24px;
+    }
+
+    .nome__curso{
+        font-size: 20px;
+    }
+}

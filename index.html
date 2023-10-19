@@ -1,0 +1,164 @@
+<!-- Aluno: Jackson RU: 4439418 -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Portfólio pessoal</title>
+</head>
+<body>
+    <!--Aqui é o cabecalho, optei por um botao hamburguer para dispositivos móveis-->
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item"><a href="#conteudo" class="lista-menu__link btn1">Sobre Mim</a></li>
+                <li class="lista-menu__item"><a href="#formacoes" class="lista-menu__link btn2">Formações</a></li>
+                <li class="lista-menu__item"><a href="#portfolio" class="lista-menu__link btn3">Portfólio</a></li>
+                <li class="lista-menu__item"><a href="#contato" class="lista-menu__link btn4">Contato</a></li>
+            </ul>
+        </div>
+        
+        <div class="opcoes">
+            <ul class="opcoes__lista-menu">
+                <li class="lista-menu__item"><a href="#conteudo" class="lista-menu__link btn1">Sobre Mim</a></li>
+                <li class="lista-menu__item"><a href="#formacoes" class="lista-menu__link btn2">Formações</a></li>
+                <li class="lista-menu__item"><a href="#portfolio" class="lista-menu__link btn3">Portfólio</a></li>
+                <li class="lista-menu__item"><a href="#contato" class="lista-menu__link btn4">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Sessão do conteudo principal "sobre mim. "-->
+    <section id="conteudo">
+        <h1 class="conteudo__titulo">Jackson<br>Santos</h1>
+        <img src="/img/eu.png" alt="Uma foto de Jackson Santos" class="foto__perfil">
+        <p class="conteudo__texto">
+            Oi, sou o Jackson, tenho 26 anos e sou estudante de Análise e Desenvolvimento de Sistemas.<br>
+            Atualmente, trabalho em uma farmácia, mas meu coração está na área de tecnologia, um interesse que carrego desde a infância. Estou determinado a me tornar um Desenvolvedor Web.<br>
+            Fora do mundo dos códigos, meu escape é a musculação. Passo meu tempo livre treinando, buscando o equilíbrio entre mente e corpo. E quando não estou levantando pesos, estou online, imerso nos universos de Valorant e CS2, alimentando minha paixão por jogos e estratégias virtuais.<br>
+            Minha vida é uma mistura de linhas de código, atendimento na farmácia, barras de ferro e partidas emocionantes. Estou construindo meu caminho, combinando minha paixão pela tecnologia com o desejo de transformação pessoal. O futuro? Bem, estou criando um onde minha jornada reflete quem eu sou e para onde quero ir.
+        </p>
+    </section>
+    <!-- Sessão do conteudo de formação -->
+    <section id="formacoes">
+        <div class="card__formacoes">
+            <div class="formacoes__container">
+                <ul class="formacoes__lista">
+                    <h2 class="titulo__lista">HTML & CSS</h2>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Curso em Vídeo</h3>
+                        <p class="textolista">Formado em 2022 com professor Gustavo Guanabara</p>
+                    </li>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Alura</h3>
+                        <p class="textolista">Formado em 2023 em desenvolvimento de aplicações web.</p>
+                    </li>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Udemy</h3>
+                        <p class="textolista">Formado em 2022 com professor Luiz Otávio Miranda</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="formacoes__container">
+                <ul class="formacoes__lista">
+                    <h2 class="titulo__lista">JavaScript</h2>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Alura</h3>
+                        <p class="textolista">Formado em 2023 em desenvolvimento de aplicações web.</p>
+                    </li>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Udemy</h3>
+                        <p class="textolista">Formado em 2023 com professor Luiz Otávio Miranda</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="formacoes__container">
+                <ul class="formacoes__lista">
+                    <h2 class="titulo__lista">React</h2>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Alura</h3>
+                        <p class="textolista">Cursando</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="formacoes__container">
+                <ul class="formacoes__lista">
+                    <h2 class="titulo__lista">Analise e Desenvolvimento de Sistemas</h2>
+                    <li class="box__lista">
+                        <h3 class="nome__curso">Alura</h3>
+                        <p class="textolista">Cursando</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Sessão do meu portfolio, optei por um slider para ficar melhor a visualização -->
+    <section id="portfolio">
+    <div class="portfolio__container">
+        <h2 class="portfolio__titulo">PROJETOS</h2>
+        <p class="portfolio__texto">Veja alguns dos meus projetos abaixo.</p>
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide" data-link="https://fokus-jackson.vercel.app/">
+                    <img src="/img/fokus.jpg" alt="Uma imagem de um projeto chamado fokus pomodoro">
+                </div>
+                <div class="slide" data-link="https://santosbank.vercel.app/">
+                    <img src="/img/santosbank.jpg" alt="Uma imagem de um projeto de um site de banco">
+                </div>
+                <div class="slide" data-link="https://adivinhanumero-nu.vercel.app/">
+                    <img src="/img/voz.jpg" alt="Uma imagem de um site de adivinhação de número por voz">
+                </div>
+                <div class="slide" data-link="https://mpc-chi.vercel.app/">
+                    <img src="/img/mpc.jpg" alt="Uma imagem de um site de um MPC virtual">
+                </div>
+            </div>
+            <button class="prev"><p class="texto">&#8249</p></button>
+            <button class="next"><p class="texto">&#8250</p></button>
+            <a class="slider-link" target="_blank">Acesse</a>
+        </div>
+    </div>
+    </section>
+    <!-- Sessão de contato -->
+    <section id="contato">
+        <div class="contato__container">
+            <h2 class="contato__titulo">Entre em contato</h2>
+            <form id="contato-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <input type="submit" class="contato__botao"></input>
+            </form>
+        </div>
+    </section>
+    <!-- Rodapé com minhas redes sociais -->
+    <footer class="rodape"> 
+        <h2 class="rodape__titulo">Dev. <strong class="negrito">Jackson</strong> Santos</h2>
+        <p class="rodape__texto">Site ilustrativo, desenvolvido por Jackson Santos, para trabalho da faculdade de Analise e Desenvolvimento de Sistemas.</p>
+    <hr/>
+        <div class="rodape__links">
+            <a href="https://www.instagram.com/jacksuu/" target="_blank">
+                <img src="/img/instagram.svg" alt="Icone Instagram" class="icon">
+            </a>
+            <a href="https://github.com/Jacksons357" target="_blank">
+                <img src="/img/github.svg" alt="Icone Github" class="icon">
+            </a>
+        </div>
+    </footer>
+    <script type="module" src="/assets/js/script.js"></script>
+</body>
+</html>
